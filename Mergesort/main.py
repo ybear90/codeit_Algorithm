@@ -25,7 +25,7 @@ def merge(list1, list2):
 
 
 def merge_sort(my_list):
-    if len(my_list) == 1:
+    if len(my_list) <= 1:
         return my_list
 
     # Split and merge sorted list
